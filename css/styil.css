@@ -48,7 +48,7 @@ transform: rotate(60deg);
 }
 @keyframes carmove{
     from{left: 0px;}
-    to{left: 1800px;}
+    to{left: 1500px;}
 }
 @keyframes identifier {
     fom{left: 2000px;}
