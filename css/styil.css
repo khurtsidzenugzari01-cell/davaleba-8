@@ -1,5 +1,5 @@
 .class{
-      height: 1400px;
+      height: 1000px;
       width: auto;
 }
 .class-2{
@@ -62,4 +62,47 @@ transform: rotate(60deg);
     position: absolute;
     top: 50%;
     left: 5000px;
+    
+}
+.b{
+   position: relative; 
+   position: absolute;
+   top: 99%;
+   left: 40%;
+}
+.b-48{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    animation: mymove  infinite;
+    animation-duration: 3s;
+}
+@keyframes mymove{
+    from{top:0px;}
+    to{top: 200px;}
+}
+.sea{
+    width: 1800px;
+    height: 500px;
+}
+.fif{  
+    position: relative;
+    animation: carmove1 infinite;
+    width: 10px;
+    height: 5px;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+.fif-1{ 
+    animation-duration: 3s;
+    position: relative;
+    animation: carmove1 infinite;
+    position: absolute;
+    width: 40px;
+    height: 60px;
+    top: 510px;
+    left: 100px;
 }
